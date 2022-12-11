@@ -1,0 +1,34 @@
+.container {
+  height: calc(100vh - 50px);
+  width: 200px;
+  background-color: black;
+  color: white;
+  position: absolute;
+  right: 0;
+  display: flex;
+  align-items: center;
+}
+
+.hidden {
+  display: none;
+  transition: 2s all ease;
+}
+
+.list {
+  height: 80%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.listItem {
+  font-size: 24px;
+  color: lightgray;
+  transition: all 0.5s ease;
+}
+
+.listItem:hover {
+  font-size: 26px;
+  color: white;
+}
